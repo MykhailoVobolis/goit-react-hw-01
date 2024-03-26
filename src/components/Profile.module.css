@@ -1,0 +1,65 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 540px;
+  border: solid 3px #242424;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.userCard {
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+.userAvatar {
+  background-color: #242424;
+  border: none;
+  border-radius: 50%;
+  width: 220px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  font-size: 36px;
+  color: grey;
+}
+
+.userName {
+  font-size: 42px;
+  font-weight: 600;
+  color: #242424;
+}
+
+.userStats {
+  display: flex;
+  background-color: rgb(208, 208, 208);
+  width: 100%;
+}
+
+.userStatsItem {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 3);
+  border-top: solid 3px gray;
+  box-sizing: border-box;
+}
+
+.userStatsItem:nth-child(-n + 2) {
+  border-right: solid 3px gray;
+}
+
+.userStatsName {
+  font-size: 32px;
+  color: #242424;
+}
+
+.userStatsItemValue {
+  composes: userStatsName;
+  font-weight: 600;
+}
