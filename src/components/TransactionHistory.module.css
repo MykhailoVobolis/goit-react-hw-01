@@ -1,0 +1,29 @@
+.transactionTab {
+  width: 850px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 22px;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  width: calc(100% / 3);
+}
+
+th {
+  background-color: #2a2a2a;
+  color: #ffffff;
+}
+
+tr:nth-child(2n) {
+  background-color: #d3d3d3;
+}
+
+td:first-child {
+  text-transform: capitalize;
+  text-align: start;
+  padding-left: 80px;
+}
