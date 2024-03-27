@@ -6,6 +6,8 @@
   border: solid 3px #242424;
   border-radius: 15px;
   overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .userCard {
